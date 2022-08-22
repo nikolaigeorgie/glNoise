@@ -28,6 +28,7 @@
         "@types/node-fetch": "^2.5.10",
         "ava": "^3.15.0",
         "better-docs": "^2.3.2",
+        "fs": "^0.0.1-security",
         "jsdoc": "^3.6.7",
         "ogl": "0.0.73",
         "rollup": "^2.46.0",
