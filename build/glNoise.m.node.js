@@ -25,15 +25,15 @@ const isNode = typeof process !== "undefined" && process.versions != null && pro
 //~START~
 async function nodeFetch(s) {
     // @ts-ignore
-    const fs = await import('fs');
+    // const fs = await import('fs');
     // @ts-ignore
-    const path = (await import('path')).default;
-    const f = fs.readFileSync(path.resolve(s));
-    return {
-        text: async function () {
-            return f.toString();
-        },
-    };
+    // const path = (await import('path')).default;
+    // const f = fs.readFileSync(path.resolve(s));
+    // return {
+    //     text: async function () {
+    //         return f.toString();
+    //     },
+    // };
 }
 //~END~
 function getDeps(chunks) {
